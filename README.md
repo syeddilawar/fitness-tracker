@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Unit 17 Nosql Homework: Workout Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
-## Available Scripts
+## User Story
 
-In the project directory, you can run:
+* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-### `npm start`
+## Business Context
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Acceptance Criteria
 
-### `npm test`
+When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The user should be able to:
 
-### `npm run build`
+  * Add exercises to a previous workout plan.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * Add new exercises to a new workout plan.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  * View the combined weight of multiple exercises on the `stats` page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
 
-### `npm run eject`
+  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Commit Early and Often
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
-## Learn More
+2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow these guidelines for committing:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-### Code Splitting
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
 
-### Analyzing the Bundle Size
+* Test your application before you commit to ensure functionality at every step in the development process.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+We want you to have well over 200 commits by graduation, so commit early and often!
 
-### Making a Progressive Web App
+## Submission on BCS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+You are required to submit the following:
 
-### Advanced Configuration
+* The URL to the deployed application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* The URL to the GitHub repository
